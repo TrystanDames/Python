@@ -17,7 +17,7 @@ def player_move(icon):
 	elif icon == "O":
 		number = 2
 
-	print("Your turn player{}".format(number))
+	print("Your turn player {}".format(number))
 	
 	choice = int(input("Enter your move (1-9): ").strip())
 	

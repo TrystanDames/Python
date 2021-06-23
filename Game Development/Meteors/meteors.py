@@ -81,7 +81,7 @@ def main_game():
 		pygame.sprite.spritecollide(laser, meteor_group, True)
 
 	#Laser Timer
-	if pygame.time.get_ticks() - laser_timer >= 1000:
+	if pygame.time.get_ticks() - laser_timer >= 0:
 		laser_active = True
 		spaceship_group.sprite.charge()
 
